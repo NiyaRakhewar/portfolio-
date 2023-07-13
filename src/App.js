@@ -10,7 +10,6 @@ import { Route, Routes } from "react-router-dom";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 import ScrollToTop from "./components/ScrollToTop";
 import Experience from "./components/Experiece/Projects";
 // import { Switch } from "@material-ui/core";

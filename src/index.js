@@ -8,14 +8,18 @@ import { createRoot } from "react-dom/client";
 
 // Replace your existing ReactDOM.render code with createRoot
 createRoot(document.getElementById("root")).render(
-  <Router>
-    <App />
-  </Router>
+  <React.StrictMode>
+    <Router>
+      <App />
+    </Router>
+  </React.StrictMode>
 );
 
 // ReactDOM.render(
 //   <React.StrictMode>
-//     <App />
+//     <Router>
+//       <App />
+//     </Router>
 //   </React.StrictMode>,
 //   document.getElementById("root")
 // );
